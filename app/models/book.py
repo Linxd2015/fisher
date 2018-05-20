@@ -4,6 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 # 使用前必须实例化一个db对象
 db = SQLAlchemy()
 
+
 # 继承db中的Model方法
 class Book(db.Model):
     id = Column(Integer, primary_key=True, autoincrement=True)
