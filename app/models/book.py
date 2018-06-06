@@ -1,11 +1,7 @@
 from sqlalchemy import Column, Integer, String
-from flask_sqlalchemy import SQLAlchemy
-
-# 使用前必须实例化一个db对象
-db = SQLAlchemy()
+from app.models.base import db
 
 
-# 继承db中的Model方法
 class Book(db.Model):
     id = Column(Integer, primary_key=True, autoincrement=True)
     title = Column(String(50), nullable=False)
