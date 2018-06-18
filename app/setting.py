@@ -1,2 +1,6 @@
 # 不涉及机密、不需要根据环境配置的信息
 PER_PAGE = 15
+
+RECENT_BOOK_COUNT = 30
+
+BEANS_UPLOAD_ONE_BOOK = 0.5
