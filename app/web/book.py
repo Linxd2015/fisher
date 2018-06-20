@@ -8,7 +8,7 @@ from app.spider.yushu_book import YuShuBook
 from app.view_models.book import BookViewModel, BookCollection
 from app.view_models.trade import TradeInfo
 from . import web
-from app.foms.book import SearchForm
+from app.forms.book import SearchForm
 
 
 @web.route('/book/search')
